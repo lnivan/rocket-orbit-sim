@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-2.x-30363D?style=flat-square)
 ![Status](https://img.shields.io/badge/status-prototype-BF8700?style=flat-square)
-![Year](https://img.shields.io/badge/year-2023-8250DF?style=flat-square)
 
 <img src="docs/preview.gif" alt="Zooming out during a flight: the outline of Earth appears with the predicted trajectory arcing around it" width="560">
 
@@ -68,10 +67,6 @@ python planetas.py
 - There is a single planet, no atmosphere and no real landing or crash: contact just stops the ship. The contact test adds the step to the planet's position instead of the ship's, so it effectively checks where the ship was one step earlier.
 - The prediction ignores thrust and uses coarse 50 s steps. The step follows the wall clock in an uncapped loop, so the frame rate changes how accurately the flight itself is integrated.
 - `Planeta.draw` and `Sprite.draw` in `planetas.py` are never called (the renderer in `dibujo.py` draws everything), and a commented-out `Nave` ("ship") class is left over.
-
-## Background
-
-Written in or before June 2023; the files come from a code backup made that month, where they sat in a scratch folder named `prueba` ("test"), and were put under version control in 2026. The rocket uses the same polar-vertex outline technique as the author's Asteroids game.
 
 ---
 
