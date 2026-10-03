@@ -9,7 +9,7 @@
 ![Status](https://img.shields.io/badge/status-prototype-BF8700?style=flat-square)
 ![Year](https://img.shields.io/badge/year-2023-8250DF?style=flat-square)
 
-<img src="docs/preview.gif" alt="An outlined rocket lifts off and tilts; the view zooms out until Earth's outline appears, with the predicted path arcing around it" width="560">
+<img src="docs/preview.gif" alt="Zooming out during a flight: the outline of Earth appears with the predicted trajectory arcing around it" width="560">
 
 </div>
 
